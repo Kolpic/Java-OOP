@@ -1,0 +1,12 @@
+package christmasPastryShop.entities.delicacies.interfaces;
+
+import christmasPastryShop.entities.delicacies.interfaces.BaseDelicacy;
+
+public class Stolen extends BaseDelicacy {
+
+    private static final double INITIAL_PORTION = 250;
+
+    public Stolen(String name, double price) {
+        super(name, INITIAL_PORTION, price);
+    }
+}
